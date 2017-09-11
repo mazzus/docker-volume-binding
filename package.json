@@ -1,0 +1,31 @@
+{
+  "name": "docker-volume-binding",
+  "version": "1.0.0",
+  "description": "An example of how to bind volumes to a docker container",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -w src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazzus/docker-volume-binding.git"
+  },
+  "keywords": [
+    "docker",
+    "node"
+  ],
+  "author": "Marius Hamre Nordrik <marius@nordrik.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mazzus/docker-volume-binding/issues"
+  },
+  "homepage": "https://github.com/mazzus/docker-volume-binding#readme",
+  "dependencies": {
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "nodemon": "^1.9.2",
+    "prettier": "^1.5.3"
+  }
+}
